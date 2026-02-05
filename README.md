@@ -1,12 +1,5 @@
 # Full-stack assignment: Node.js/Express backend + vanilla JS frontend.
 
-
-## UI snapshots
-
-<img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/11d86c7b-7174-4d8c-85ae-ed89781a6a58" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef319622-7d46-409d-b4ef-219031e1d489" />
-
 ## Backend (Node.js / Express / MongoDB)
 
 - **Tech stack**: Express, MongoDB (Mongoose), JWT, bcrypt, express-validator, Swagger.
@@ -79,4 +72,13 @@ You can then use the **frontend** (see below) or hit the API/Swagger directly fr
   - The current folder structure (`models`, `controllers`, `routes`, `middleware`, `config`) allows adding new modules (e.g., products, notes) without impacting existing ones.
 - **Observability & deployment**:
   - Can be containerized with **Docker** and deployed to services like AWS ECS/Kubernetes, with centralized logging and monitoring (e.g., CloudWatch / ELK / Prometheus + Grafana).
+ 
+
+## UI snapshots
+
+<img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/11d86c7b-7174-4d8c-85ae-ed89781a6a58" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef319622-7d46-409d-b4ef-219031e1d489" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a7c66be4-445d-4807-a8fd-a351665c9f1c" />
 
