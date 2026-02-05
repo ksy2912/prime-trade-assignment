@@ -1,8 +1,6 @@
-<img width="1892" height="893" alt="image" src="https://github.com/user-attachments/assets/05bde591-6c78-475e-b4df-c384fd6ddfe2" /># Prime Trade Assignment
-
 Full-stack assignment: Node.js/Express backend + vanilla JS frontend.
 
-##Frontend Snapshots
+## UI snapshots
 
 <img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/11d86c7b-7174-4d8c-85ae-ed89781a6a58" />
 
