@@ -5,6 +5,7 @@
 
 <img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/11d86c7b-7174-4d8c-85ae-ed89781a6a58" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ef319622-7d46-409d-b4ef-219031e1d489" />
 
 ## Backend (Node.js / Express / MongoDB)
 
