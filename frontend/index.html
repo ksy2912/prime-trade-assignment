@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Prime Trade – Backend Assignment UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <h1>Prime Trade – Task Dashboard</h1>
+        <p class="subtitle">Demo UI for auth + task CRUD</p>
+      </header>
+
+      <main class="app-main">
+        <section class="card" id="auth-section">
+          <h2>Authentication</h2>
+
+          <div class="tabs">
+            <button class="tab-button active" data-tab="login">Login</button>
+            <button class="tab-button" data-tab="register">Register</button>
+          </div>
+
+          <div class="tab-content active" id="login-tab">
+            <form id="login-form">
+              <label>
+                Email
+                <input type="email" id="login-email" required />
+              </label>
+              <label>
+                Password
+                <input type="password" id="login-password" required />
+              </label>
+              <button type="submit">Login</button>
+            </form>
+          </div>
+
+          <div class="tab-content" id="register-tab">
+            <form id="register-form">
+              <label>
+                Name
+                <input type="text" id="register-name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" id="register-email" required />
+              </label>
+              <label>
+                Password
+                <input type="password" id="register-password" required />
+              </label>
+              <button type="submit">Register</button>
+            </form>
+          </div>
+
+          <div id="auth-message" class="message"></div>
+        </section>
+
+        <section class="card" id="dashboard-section">
+          <div class="card-header">
+            <h2>Dashboard</h2>
+            <button id="logout-button" class="secondary">Logout</button>
+          </div>
+
+          <div id="user-info" class="user-info"></div>
+
+          <h3>Create / Update Task</h3>
+          <form id="task-form">
+            <input type="hidden" id="task-id" />
+            <label>
+              Title
+              <input type="text" id="task-title" required />
+            </label>
+            <label>
+              Description
+              <textarea id="task-description" rows="2"></textarea>
+            </label>
+            <label>
+              Status
+              <select id="task-status">
+                <option value="pending">Pending</option>
+                <option value="in-progress">In Progress</option>
+                <option value="completed">Completed</option>
+              </select>
+            </label>
+            <button type="submit">Save Task</button>
+            <button type="button" id="task-reset" class="secondary">Clear</button>
+          </form>
+
+          <h3>Your Tasks</h3>
+          <div id="tasks-list" class="tasks-list"></div>
+
+          <div id="dashboard-message" class="message"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+  </html>
+
+
