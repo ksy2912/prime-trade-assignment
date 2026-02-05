@@ -2,6 +2,11 @@
 
 Full-stack assignment: Node.js/Express backend + vanilla JS frontend.
 
+##Frontend Snapshots
+![Uploading image.png…]()
+
+
+
 ## Backend (Node.js / Express / MongoDB)
 
 - **Tech stack**: Express, MongoDB (Mongoose), JWT, bcrypt, express-validator, Swagger.
