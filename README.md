@@ -1,4 +1,5 @@
-## Full-stack assignment: Node.js/Express backend + vanilla JS frontend.
+#### Full-stack assignment: Node.js/Express backend + vanilla JS frontend.
+
 
 ## UI snapshots
 
